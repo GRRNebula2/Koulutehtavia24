@@ -1,0 +1,32 @@
+.container {
+    margin: 10px 20px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 90px 162px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "kuva otsikko"
+        "kuva teksti"
+        ;
+}
+
+.img {
+    grid-area: kuva;
+    grid-row: 1 / span 2;
+}
+
+.otsikko {
+    grid-area: otsikko;
+    margin-bottom: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #627081;
+}
+
+.teksti {
+    grid-area: teksti;
+    font-size: 85%;
+    line-height: 1.5em;
+    color: #666;
+    
+}

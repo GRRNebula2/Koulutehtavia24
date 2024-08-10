@@ -1,0 +1,49 @@
+
+div.reunat {
+    background-color: darkgreen;
+    border: 1px solid white;
+    margin: 0 auto 0;
+    width: 890px;
+
+}
+
+div.sisältö {
+    margin: 15px auto 15px;
+    border: 15px solid white;
+    padding: 15px;
+    width: 800px;
+    background-color: darkgreen;
+}
+   
+body {
+    
+}
+
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+h6 {
+    color: white;
+}
+
+p {
+    color: white;
+}
