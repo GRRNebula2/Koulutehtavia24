@@ -15,6 +15,12 @@
     url("Gotham Light.otf")
 }
 
+#logo {
+    float: right;
+    width: 150px;
+    height: 90px;
+}
+
 div.reunat {
     border: solid 2px;
     border-color: #69013b;

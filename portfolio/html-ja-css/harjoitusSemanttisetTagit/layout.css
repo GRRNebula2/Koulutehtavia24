@@ -1,24 +1,53 @@
 article {
     background-color: green;
+    display: flex;
+    margin: 10px;
+    
 }
 
 section {
     background-color: yellow;
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
-nav {
+div.nav {
     background-color: orangered;
+    flex: auto;
+    display: flex;
 }
 
 aside {
     background-color: blue;
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 
+div.sinikeltainen {
+    display: flex;
+    flex: stretch;
+}
 
-header {
+div.header {
     background-color: red;
+    display: flex;
 }
 
-footer {
+div.footer {
     background-color: darkmagenta;
+    clear: both;
+    display: flex;
+}
+
+p {
+    color: white;
+    font-weight: bold;
 }
